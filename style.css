@@ -1,4 +1,5 @@
-body {
+/** Темная тема **/
+.dark-theme {
   margin: 0;
   min-width: 960px;
   font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
@@ -6,120 +7,133 @@ body {
   line-height: 32px;
   color: #f2f2f2;
   background-color: #080208;
-  background-image: url("img/hero-bg.jpg");
+  background-image: url("imgDark/hero-bg.jpg");
   background-repeat: no-repeat;
   background-position: top center;
 }
 
-.container {
+.dark-theme .container {
   max-width: 928px;
   margin: 0 auto;
   padding: 0 16px;
 }
 
-.page-header {
+.dark-theme .page-header {
   margin: 0 0 180px;
   padding: 32px 0 32px;
 }
 
-.page-header .container,
-.page-footer .container {
+.dark-theme .page-header .container,
+.dark-theme .page-footer .container {
   max-width: 1408px;
   text-align: right;
 }
 
-.page-header a {
+.dark-theme .page-header a {
   margin-left: 56px;
   color: #fea18d;
   text-decoration: none;
   background-repeat: no-repeat;
   background-position: left;
 }
+.dark-theme .theme-button {
+  padding: 6px 20px;
+  display: inline-block;
+  vertical-align: baseline;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 5px;
+  background-color: #712073;
+  color: #ffffff;
+  float: left;
+  opacity: 0.8;
+}
 
-.header-email {
+}
+.dark-theme .header-email {
   padding-left: 30px;
-  background-image: url("img/icon-email.svg");
+  background-image: url("imgDark/icon-email.svg");
 }
 
-.header-phone {
+.dark-theme .header-phone {
   padding-left: 25px;
-  background-image: url("img/icon-phone.svg");
+  background-image: url("imgDark/icon-phone.svg");
 }
 
-.hero-image {
+.dark-theme .hero-image {
   margin-bottom: 480px;
 }
 
-.hero-image .container {
+.dark-theme .hero-image .container {
   max-width: 1408px;
   text-align: center;
 }
 
-.heading {
+.dark-theme .heading {
   margin: 0 0 24px;
   font-size: 80px;
   line-height: 96px;
 }
 
-.hero-image p {
+.dark-theme .hero-image p {
   margin: 0;
   font-size: 32px;
   line-height: 48px;
 }
 
-.intro {
+.dark-theme .intro {
   margin: 0 0 120px;
 }
 
-.subheading {
+.dark-theme .subheading {
   margin: 0 0 56px;
   font-size: 56px;
   line-height: 80px;
   text-align: center;
 }
 
-.user-image {
+.dark-theme .user-image {
   margin: 0 0 32px;
   text-align: center;
 }
 
-.intro h3,
-.portfolio h3 {
+.dark-theme .intro h3,
+.dark-theme .portfolio h3 {
   margin: 0 0 12px;
   font-size: 28px;
   line-height: 40px;
   font-weight: 500;
 }
 
-.intro p {
+.dark-theme .intro p {
   margin: 0 0 32px;
 }
 
-.skills{
- margin: 0 160px;
+.dark-theme .skills {
+  margin: 0 160px;
 }
 
 }
-.skills-list {
+.dark-theme .skills-list {
   margin: 0;
   padding: 0;
 }
 
-.skills-list dt {
+.dark-theme .skills-list dt {
   padding-left: 32px;
   background-repeat: no-repeat;
-  background-position: left;
+  background-position: left; 
 }
 
-.skill-html {
-  background-image: url("img/icon-html.svg");
+.dark-theme .skill-html {
+  background-image: url("imgDark/icon-html.svg");
 }
 
-.skill-css {
-  background-image: url("img/icon-css.svg");
+.dark-theme .skill-css {
+  background-image: url("imgDark/icon-css.svg");
 }
 
-.level {
+.dark-theme .level {
   margin: 4px 0 16px;
   padding: 0;
   height: 14px;
@@ -129,37 +143,32 @@ body {
   border-radius: 8px;
 }
 
-.level div {
+.dark-theme .level div {
   margin: 1px;
   height: 12px;
   background-color: #fea18d;
   border-radius: 6px;
 }
 
-.portfolio {
+.dark-theme .portfolio {
   margin: 0 0 120px;
 }
 
-.projects {
+.dark-theme .projects {
   margin: 0;
   padding: 0;
   list-style: none;
 }
 
-.projects li {
+.dark-theme .projects li {
   margin: 0 0 80px;
 }
 
-.project-image {
-  margin: 0 0 24px;
-  text-align: center;
-}
-
-.projects p {
+.dark-theme .projects p {
   margin: 0 0 24px;
 }
 
-.button {
+.dark-theme .button {
   padding: 6px 20px;
   display: inline-block;
   vertical-align: baseline;
@@ -170,12 +179,12 @@ body {
   color: #ffffff;
 }
 
-.page-footer {
+.dark-theme .page-footer {
   padding: 40px 5px;
   background-color: #260c26;
 }
 
-.page-footer a {
+.dark-theme .page-footer a {
   margin-left: 56px;
   color: #fea18d;
   text-decoration: none;
@@ -183,12 +192,224 @@ body {
   background-position: left;
 }
 
-.footer-email {
+.dark-theme .footer-email {
   padding-left: 30px;
-  background-image: url("img/icon-email.svg");
+  background-image: url("imgDark/icon-email.svg");
 }
 
-.footer-phone {
+.dark-theme .footer-phone {
   padding-left: 25px;
-  background-image: url("img/icon-phone.svg");
+  background-image: url("imgDark/icon-phone.svg");
 }
+
+/** Светлая тема **/
+
+.white-theme {
+  margin: 0;
+  min-width: 960px;
+  font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 32px;
+  color: #222222;
+  background-color: #f2f4f6;
+  background-image: url("imgWhite/hero-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+.white-theme .container {
+  max-width: 928px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.white-theme .page-header {
+  margin: 0 0 160px;
+  padding: 32px 0 32px;
+}
+
+.white-theme .page-header .container,
+.white-theme .page-footer .container {
+  max-width: 1408px;
+  text-align: right;
+}
+
+.white-theme .page-header a {
+  margin-left: 56px;
+  color: #288be6;
+  text-decoration: none;
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.white-theme .theme-button {
+  padding: 6px 20px;
+  display: inline-block;
+  vertical-align: baseline;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 5px;
+  background-color: #288be6;
+  color: #ffffff;
+  float: left;
+  opacity: 0.8;
+}
+
+.white-theme .header-email {
+  padding-left: 30px;
+  background-image: url("imgWhite/icon-email-header.svg");
+}
+
+.white-theme .header-phone {
+  padding-left: 25px;
+  background-image: url("imgWhite/icon-phone-header.svg");
+}
+
+.white-theme .hero-image .container {
+  max-width: 1408px;
+  text-align: center;
+}
+
+.white-theme .heading {
+  margin: 0 0 16px;
+  font-family: "Old Standard TT", "Times", "Times New Roman", serif;
+  font-size: 88px;
+  line-height: 96px;
+  font-weight: 400;
+}
+
+.white-theme .hero-image p {
+  margin: 0;
+  font-size: 32px;
+  line-height: 48px;
+}
+
+.white-theme .intro {
+  margin: 0 0 120px;
+}
+
+.white-theme .subheading {
+  margin: 0 0 56px;
+  font-family: "Old Standard TT", "Times", "Times New Roman", serif;
+  font-size: 64px;
+  line-height: 80px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.white-theme .user-image {
+  margin: 0 0 32px;
+  text-align: center;
+}
+
+.white-theme .intro h3,
+.white-theme .portfolio h3 {
+  margin: 0 0 12px;
+  font-size: 28px;
+  line-height: 40px;
+  font-weight: 500;
+}
+
+.white-theme .intro p {
+  margin: 0 0 32px;
+}
+
+.white-theme .skills {
+  margin: 0 160px;
+}
+
+}
+.white-theme .skills-list {
+  margin: 0;
+  padding: 0;
+}
+
+.white-theme .skills-list dt {
+  padding-left: 32px;
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.white-theme .skill-html {
+  background-image: url("imgWhite/icon-html.svg");
+}
+
+.white-theme .skill-css {
+  background-image: url("imgWhite/icon-css.svg");
+}
+
+.white-theme .level {
+  margin: 4px 0 16px;
+  padding: 0;
+  height: 14px;
+  font-size: 0;
+  background-color: #ffffff;
+  border: 1px solid #86c3fa;
+  border-radius: 8px;
+}
+
+.white-theme .level div {
+  margin: 1px;
+  height: 12px;
+  background-color: #288be6;
+  border-radius: 6px;
+}
+
+.white-theme .portfolio {
+  margin: 0 0 120px;
+}
+
+.white-theme .projects {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.white-theme .projects li {
+  margin: 0 0 80px;
+}
+
+.white-theme .project-image {
+  margin: 0 0 24px;
+  text-align: center;
+}
+
+.white-theme .projects p {
+  margin: 0 0 24px;
+}
+
+.white-theme .button {
+  padding: 6px 20px;
+  display: inline-block;
+  vertical-align: baseline;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 4px;
+  background-color: #288be6;
+  color: #ffffff;
+}
+
+.white-theme .page-footer {
+  padding: 40px 0;
+  background-color: #00417d;
+  color: #ffffff;
+}
+
+.white-theme .page-footer a {
+  margin-left: 56px;
+  color: inherit;
+  text-decoration: none;
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.white-theme .footer-email {
+  padding-left: 30px;
+  background-image: url("imgWhite/icon-email-footer.svg");
+}
+
+.white-theme .footer-phone {
+  padding-left: 25px;
+  background-image: url("imgWhite/icon-phone-footer.svg");
+}
+
