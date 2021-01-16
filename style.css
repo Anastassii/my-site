@@ -49,7 +49,6 @@
   opacity: 0.8;
 }
 
-}
 .dark-theme .header-email {
   padding-left: 30px;
   background-image: url("imgDark/icon-email.svg");
@@ -318,7 +317,6 @@
   margin: 0 160px;
 }
 
-}
 .white-theme .skills-list {
   margin: 0;
   padding: 0;
