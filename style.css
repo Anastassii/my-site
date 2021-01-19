@@ -168,7 +168,7 @@
 }
 
 .dark-theme .button {
-  padding: 8px 20px;
+  padding: 6px 20px;
   display: inline-block;
   vertical-align: baseline;
   text-decoration: none;
@@ -380,7 +380,7 @@
 }
 
 .white-theme .button {
-  padding: 8px 20px;
+  padding-bottom: 6px 20px;
   display: inline-block;
   vertical-align: baseline;
   text-decoration: none;
