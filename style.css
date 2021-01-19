@@ -168,7 +168,7 @@
 }
 
 .dark-theme .button {
-  padding: 6px 20px;
+  padding: 8px 20px;
   display: inline-block;
   vertical-align: baseline;
   text-decoration: none;
@@ -176,6 +176,7 @@
   border-radius: 4px;
   background-color: #712073;
   color: #ffffff;
+  margin-bottom: 10px;
 }
 
 .dark-theme .page-footer {
@@ -259,6 +260,10 @@
   background-image: url("imgWhite/icon-email-header.svg");
 }
 
+.white-theme .hero-image {
+  margin-bottom: 480px;
+}
+
 .white-theme .header-phone {
   padding-left: 25px;
   background-image: url("imgWhite/icon-phone-header.svg");
@@ -270,11 +275,9 @@
 }
 
 .white-theme .heading {
-  margin: 0 0 16px;
-  font-family: "Old Standard TT", "Times", "Times New Roman", serif;
-  font-size: 88px;
+  margin: 0 0 24px;
+  font-size: 80px;
   line-height: 96px;
-  font-weight: 400;
 }
 
 .white-theme .hero-image p {
@@ -377,7 +380,7 @@
 }
 
 .white-theme .button {
-  padding: 6px 20px;
+  padding: 8px 20px;
   display: inline-block;
   vertical-align: baseline;
   text-decoration: none;
@@ -385,6 +388,7 @@
   border-radius: 4px;
   background-color: #288be6;
   color: #ffffff;
+  margin-bottom: 10px;
 }
 
 .white-theme .page-footer {
